@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome("chromedriver")
-password = ""
 
 while True:
     driver.get("https://prod.indigo.fakeflickr.biz")
